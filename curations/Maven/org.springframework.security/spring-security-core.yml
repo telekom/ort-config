@@ -1,0 +1,5 @@
+- id: "org.springframework.security:spring-security-core:5.+"
+  curations:
+    comment: "Package resides in its own directory within repo."
+    vcs:
+      path: "core"

@@ -1,0 +1,5 @@
+- id: "	Maven:org.springframework.cloud:spring-cloud-sleuth-autoconfigure:3.+"
+  curations:
+    comment: "Package resides in its own directory within repo."
+    vcs:
+      path: "spring-cloud-sleuth-autoconfigure"

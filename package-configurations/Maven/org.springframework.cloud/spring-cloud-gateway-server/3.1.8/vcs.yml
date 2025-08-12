@@ -1,0 +1,21 @@
+---
+id: "Maven:org.springframework.cloud:spring-cloud-gateway-server:3.1.8"
+vcs:
+  type: "Git"
+  url: "https://github.com/spring-cloud/spring-cloud-gateway.git"
+  revision: "78efb0b30ca1e54726fd8b118ca167f3ddf85b58"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "spring-cloud-gateway-integration-tests/**"
+  reason: "TEST_OF"
+- pattern: "spring-cloud-gateway-mvc/src/test/**"
+  reason: "TEST_OF"
+- pattern: "spring-cloud-gateway-sample/src/test/**"
+  reason: "TEST_OF"
+- pattern: "spring-cloud-gateway-server/src/test/**"
+  reason: "TEST_OF"
+- pattern: "spring-cloud-gateway-webflux/src/test/**"
+  reason: "TEST_OF"

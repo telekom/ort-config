@@ -1,0 +1,11 @@
+---
+id: "Maven:joda-time:joda-time:2.10.5"
+vcs:
+  type: "Git"
+  url: "https://github.com/JodaOrg/joda-time.git"
+  revision: "c1d26c00a37683b26a78fa0e1ed27114ada4e091"
+path_excludes:
+- pattern: "src/example/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"
