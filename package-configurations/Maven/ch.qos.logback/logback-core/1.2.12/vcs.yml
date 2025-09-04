@@ -1,0 +1,21 @@
+---
+id: "Maven:ch.qos.logback:logback-core:1.2.12"
+vcs:
+  type: "Git"
+  url: "https://github.com/qos-ch/logback.git"
+  revision: "a388193052c298ca87cc64192319df723288c6ab"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "logback-access/src/test/**"
+  reason: "TEST_OF"
+- pattern: "logback-classic/performance/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "logback-classic/src/test/**"
+  reason: "TEST_OF"
+- pattern: "logback-core/src/test/**"
+  reason: "TEST_OF"
+- pattern: "logback-examples/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "logback-site/src/site/pages/manual/**"
+  reason: "DOCUMENTATION_OF"

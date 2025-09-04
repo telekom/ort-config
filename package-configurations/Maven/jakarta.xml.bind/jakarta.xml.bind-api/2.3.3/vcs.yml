@@ -1,0 +1,19 @@
+---
+id: "Maven:jakarta.xml.bind:jakarta.xml.bind-api:2.3.3"
+vcs:
+  type: "Git"
+  url: "https://github.com/eclipse-ee4j/jaxb-api.git"
+  revision: "fd06b2b050cf612695ec7f0c372815e3910de154"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "etc/scripts/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "jaxb-api-test/**"
+  reason: "TEST_OF"
+- pattern: "jaxb-api/src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "spec/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "tools/**"
+  reason: "BUILD_TOOL_OF"

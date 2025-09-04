@@ -1,0 +1,6 @@
+---
+id: "Maven:org.eclipse.angus:angus-activation:1.0.0"
+source_artifact_url: "https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/1.0.0/angus-activation-1.0.0-sources.jar"
+path_excludes:
+- pattern: "META-INF/NOTICE.md"
+  reason: "DOCUMENTATION_OF"

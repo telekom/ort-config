@@ -1,0 +1,13 @@
+---
+id: "Maven:org.yaml:snakeyaml:1.30"
+vcs:
+  type: "Git"
+  url: "http://bitbucket.org/snakeyaml/snakeyaml"
+  revision: "49227c24d741dafe3b519a0d5f9d8413d803d9f3"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

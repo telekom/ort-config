@@ -1,0 +1,15 @@
+---
+id: "Maven:org.springframework.data:spring-data-redis:2.7.18"
+vcs:
+  type: "Git"
+  url: "https://github.com/spring-projects/spring-data-redis.git"
+  revision: "91520b4a7f8ce0a4fb1ac835fb56f67fa765b209"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "Makefile"
+  reason: "BUILD_TOOL_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"
+- pattern: "CI.adoc"
+  reason: "DOCUMENTATION_OF"

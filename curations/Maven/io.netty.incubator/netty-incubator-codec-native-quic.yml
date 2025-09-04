@@ -1,0 +1,5 @@
+- id: "Maven:io.netty.incubator:netty-incubator-codec-native-quic"
+  curations:
+    comment: "Package resides in its own directory within repo."
+    vcs:
+      path: "codec-native-quic"
