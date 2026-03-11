@@ -5,23 +5,23 @@ This repository contains [configuration files](https://github.com/oss-review-too
 
 ## Telekom Notes
 
-The Config is largely on par with the upstream. 
+The Config is largely on par with the upstream repo. 
 The only current change is the inclusion of [config.yml](./config.yml) to reduce false positives.
 
 ## Usage
 
-To use the configuration provided by this repository, it needs to be cloned and used as ORT_CONFIG_DIR.
+To use the configuration provided by this repository, it needs to be cloned and used as ORT config directory.
 
 Set the environment variable ORT_CONFIG_DIR to the cloned repository and then run the relevant ORT commands.
 
-For example, in PowerShell (Windows):
+For example, in PowerShell:
 
 ```powershell
 $env:ORT_CONFIG_DIR="C:\Users\Username\repos\ort-config"
 ort analyze <parameters>
 ```
 
-Or in Bash (Linux/macOS):
+Or in Bash:
 
 ```bash
 export ORT_CONFIG_DIR="/home/username/repos/ort-config"
