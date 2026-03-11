@@ -3,6 +3,11 @@
 This repository contains [configuration files](https://github.com/oss-review-toolkit/ort#configuration-files) for the
 [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort).
 
+## Telekom Notes
+
+The Config is largely on par with the upstream. 
+The only current change is the inclusion of [config.yml](./config.yml) to reduce false positives.
+
 ## Content
 
 ### Curations
