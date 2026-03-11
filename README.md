@@ -8,6 +8,28 @@ This repository contains [configuration files](https://github.com/oss-review-too
 The Config is largely on par with the upstream. 
 The only current change is the inclusion of [config.yml](./config.yml) to reduce false positives.
 
+## Usage
+
+To use the configuration provided by this repository, it needs to be cloned and used as ORT_CONFIG_DIR.
+
+Set the environment variable ORT_CONFIG_DIR to the cloned repository and then run the relevant ORT commands.
+
+For example, in PowerShell (Windows):
+
+```powershell
+$env:ORT_CONFIG_DIR="C:\Users\Username\repos\ort-config"
+ort analyze <parameters>
+```
+
+Or in Bash (Linux/macOS):
+
+```bash
+export ORT_CONFIG_DIR="/home/username/repos/ort-config"
+ort analyze <parameters>
+```
+
+Using this repository together with ORT will be simplified in future.
+
 ## Content
 
 ### Curations
@@ -30,17 +52,6 @@ Package configurations containing license finding curations or path excludes are
 ### Tools
 
 The [tools](./tools/) directory contains tools that help generating curations.
-
-## Usage
-
-To use the configuration provided by this repository, it needs to be cloned, and the files need to be passed to the
-respective options of the ORT CLI commands. For example, to use the curations with the ORT analyzer:
-
-```
-ort analyze --package-curations-dir [path-to-curations-dir]
-```
-
-Using this repository together with ORT will be simplified in future.
 
 ## Contribute
 
