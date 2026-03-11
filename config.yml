@@ -1,0 +1,10 @@
+ort:
+  scanner:
+    config:
+      # A map from scanner plugin types to the plugin configuration.
+      ScanCode:
+        options:
+          # See https://github.com/oss-review-toolkit/ort/blob/main/model/src/main/resources/reference.yml
+          # Used the reference command line and added `--license-score,70`
+          # This ensures that low-score license findings are discarded to reduce false positives.
+          commandLine: '--copyright,--license,--info,--strip-root,--timeout,300,--license-score,70'
