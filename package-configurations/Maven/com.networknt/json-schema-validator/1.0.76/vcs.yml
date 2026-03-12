@@ -1,0 +1,17 @@
+---
+id: "Maven:com.networknt:json-schema-validator:1.0.76"
+vcs:
+  type: "Git"
+  url: "https://github.com/networknt/json-schema-validator.git"
+  revision: "8b91c289e9935064e75e2494cdc2a54a563bc501"
+path_excludes:
+- pattern: "doc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"
+license_finding_curations:
+- path: "pom.xml"
+  detected_license: "NOASSERTION"
+  concluded_license: "Apache-2.0"
+  reason: "INCORRECT"
+  comment: "Did not recognize license"

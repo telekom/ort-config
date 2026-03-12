@@ -1,0 +1,4 @@
+- id: "Maven:com.github.java-json-tools:msg-simple:1.+"
+  curations:
+    comment: "Package declares dual license."
+    concluded_license: "LGPL-3.0-or-later AND Apache-2.0"

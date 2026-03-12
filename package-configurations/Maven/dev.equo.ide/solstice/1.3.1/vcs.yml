@@ -1,0 +1,21 @@
+---
+id: "Maven:dev.equo.ide:solstice:1.3.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/equodev/equo-ide.git"
+  revision: "35986ecdc5e6dd6dd5a293c348bfe0330e49ab96"
+path_excludes:
+- pattern: "gradle/blowdryer-scripts/maven.gradle"
+  reason: "BUILD_TOOL_OF"
+- pattern: "gradlew.bat"
+  reason: "BUILD_TOOL_OF"
+- pattern: "plugin-gradle/example-gradle/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "plugin-gradle/src/test/**"
+  reason: "TEST_OF"
+- pattern: "plugin-maven/example-maven/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "plugin-maven/src/test/**"
+  reason: "TEST_OF"
+- pattern: "solstice/src/test/**"
+  reason: "TEST_OF"

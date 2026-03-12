@@ -1,0 +1,15 @@
+---
+id: "Maven:io.netty:netty-tcnative-classes:2.0.65.Final"
+vcs:
+  type: "Git"
+  url: "https://github.com/netty/netty-tcnative.git"
+  revision: "593db1e4ef822646ee3d209cefcfff021e3d4dba"
+path_excludes:
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "openssl-dynamic/src/main/native-package/configure.ac"
+  reason: "BUILD_TOOL_OF"
+- pattern: "openssl-dynamic/src/main/native-package/m4/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "openssl-dynamic/src/test/**"
+  reason: "TEST_OF"

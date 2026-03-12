@@ -1,0 +1,21 @@
+---
+id: "Maven:com.google.googlejavaformat:google-java-format:1.18.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/google/google-java-format.git"
+  revision: "1c5f836dd04d6a3be04f971b31b800d0d45a0be1"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "core/src/main/java/com/google/googlejavaformat/java/javadoc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "core/src/main/scripts/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "core/src/test/**"
+  reason: "TEST_OF"
+- pattern: "idea_plugin/src/test/**"
+  reason: "TEST_OF"
+- pattern: "scripts/**"
+  reason: "BUILD_TOOL_OF"

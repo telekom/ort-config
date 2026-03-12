@@ -1,0 +1,5 @@
+- id: "org.springframework.security:spring-security-oauth2-jose:5.+"
+  curations:
+    comment: "Package resides in its own directory within repo."
+    vcs:
+      path: "oauth2/oauth2-jose"

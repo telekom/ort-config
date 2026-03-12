@@ -1,0 +1,11 @@
+---
+id: "Maven:com.googlecode.concurrent-trees:concurrent-trees:2.6.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/npgall/concurrent-trees.git"
+  revision: "a0c776706eec90e425960a056b20f260bca238b2"
+path_excludes:
+- pattern: "code/src/test/**"
+  reason: "TEST_OF"
+- pattern: "documentation/**"
+  reason: "DOCUMENTATION_OF"

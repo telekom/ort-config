@@ -1,0 +1,13 @@
+---
+id: "Maven:com.nimbusds:oauth2-oidc-sdk:9.35"
+vcs:
+  type: "Git"
+  url: "https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions.git"
+  revision: "4250aa0f4f635216eef4930529a51abbebb6049c"
+path_excludes:
+- pattern: "CHANGELOG.txt"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

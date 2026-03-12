@@ -1,0 +1,11 @@
+---
+id: "Maven:javax.servlet:javax.servlet-api:4.0.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/javaee/servlet-spec.git"
+  revision: "5574e9b39d806120ac4d3539826a75b2cea0165a"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/main/javadoc/**"
+  reason: "DOCUMENTATION_OF"

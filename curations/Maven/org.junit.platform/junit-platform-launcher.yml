@@ -1,0 +1,5 @@
+- id: "Maven:org.junit.platform:junit-platform-launcher:1.+"
+  curations:
+    comment: "Package resides in its own directory within repo."
+    vcs:
+      path: "junit-platform-launcher"

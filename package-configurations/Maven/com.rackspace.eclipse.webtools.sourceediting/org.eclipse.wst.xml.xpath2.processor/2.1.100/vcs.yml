@@ -1,0 +1,9 @@
+---
+id: "Maven:com.rackspace.eclipse.webtools.sourceediting:org.eclipse.wst.xml.xpath2.processor:2.1.100"
+vcs:
+  type: "Git"
+  url: "https://github.com/sharwell/webtools.sourceediting.xpath.git"
+  revision: "d99df9598e55867b0547fde527e9d97c929cd2aa"
+path_excludes:
+- pattern: "docs/**"
+  reason: "DOCUMENTATION_OF"

@@ -1,0 +1,17 @@
+---
+id: "Maven:org.hdrhistogram:HdrHistogram:2.1.12"
+vcs:
+  type: "Git"
+  url: "https://github.com/HdrHistogram/HdrHistogram.git"
+  revision: "2b35e19cb387625f2cbf420c9f12829b44e4fe94"
+path_excludes:
+- pattern: "HdrHistogram-benchmarks/src/main/java/bench/**"
+  reason: "TEST_OF"
+- pattern: "gnuplotExample/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/examples/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/perf/**"
+  reason: "TEST_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

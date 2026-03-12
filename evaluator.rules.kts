@@ -17,18 +17,16 @@
  * License-Filename: LICENSE
  */
 
-/******************************************************************************
- * DISCLAIMER: This file only illustrates how to write evaluator rules, it is *
- *             no recommendation in any way. It is recommended to consult     *
- *             your own legal counsel(s) for setting up your evaluator rules. *
- ******************************************************************************/
-
-/**
- * Variables defining the organization using ORT.
+/* The rules have been adapted from the example provided in the official ort-config repo.
+ *
+ * The following adjustments have been made:
+ * - Org variables have been set
+ * - Severity level for COPYLEFT_IN_DEPENDENCY changed from ERROR to WARNING
  */
-val orgName = "Example Inc."
-val orgScanIssueTrackerName = "FOSS JIRA"
-val orgScanIssueTrackerMdLink = "[$orgScanIssueTrackerName](https://jira.example.com/FOSS)"
+
+val orgName = "Deutsche Telekom AG"
+val orgScanIssueTrackerName = "the telekom/ort-config issue tracker"
+val orgScanIssueTrackerMdLink = "[$orgScanIssueTrackerName](https://github.com/telekom/ort-config/issues)"
 
 /**
  * Import the license classifications from license-classifications.yml.
@@ -1179,7 +1177,7 @@ fun RuleSet.copyleftInDependencyRule() = packageRule("COPYLEFT_IN_DEPENDENCY") {
             -isExcluded()
         }
 
-        error(
+        warning(
             "The dependency '${pkg.metadata.id.toCoordinates()}' is licensed under the ScanCode 'copyleft' " +
                     "categorized license $license.",
             howToFixLicenseViolationDefault(license.toString(), licenseSource)

@@ -1,0 +1,21 @@
+---
+id: "Maven:com.google.guava:failureaccess:1.0.1"
+vcs:
+  type: "Git"
+  url: "https://github.com/google/guava.git"
+  revision: "b8d5ecd40b9cfbd9cafc08bf50bd2382369812e9"
+path_excludes:
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "android/guava-testlib/**"
+  reason: "TEST_OF"
+- pattern: "android/guava-tests/**"
+  reason: "TEST_OF"
+- pattern: "guava-gwt/test-super/**"
+  reason: "TEST_OF"
+- pattern: "guava-gwt/test/**"
+  reason: "TEST_OF"
+- pattern: "guava-testlib/**"
+  reason: "TEST_OF"
+- pattern: "guava-tests/**"
+  reason: "TEST_OF"
