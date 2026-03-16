@@ -1,0 +1,8 @@
+---
+id: "Maven:com.github.java-json-tools:json-schema-validator:2.2.14"
+source_artifact_url: "https://repo.maven.apache.org/maven2/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14-sources.jar"
+path_excludes:
+- pattern: "com/github/fge/jsonschema/examples/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "com/github/fge/jsonschema/processors/build/**"
+  reason: "BUILD_TOOL_OF"

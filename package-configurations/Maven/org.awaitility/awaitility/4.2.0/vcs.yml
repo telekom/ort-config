@@ -1,0 +1,21 @@
+---
+id: "Maven:org.awaitility:awaitility:4.2.0"
+vcs:
+  type: "Git"
+  url: "https://github.com/awaitility/awaitility.git"
+  revision: "b5d82b703caa88b2ddc2ae0d06020c286d023a79"
+path_excludes:
+- pattern: "awaitility-groovy/src/test/**"
+  reason: "TEST_OF"
+- pattern: "awaitility-java8-test/**"
+  reason: "TEST_OF"
+- pattern: "awaitility-kotlin/src/test/**"
+  reason: "TEST_OF"
+- pattern: "awaitility-osgi-test/**"
+  reason: "TEST_OF"
+- pattern: "awaitility-scala/src/test/**"
+  reason: "TEST_OF"
+- pattern: "awaitility-test-support/**"
+  reason: "TEST_OF"
+- pattern: "awaitility/src/test/**"
+  reason: "TEST_OF"

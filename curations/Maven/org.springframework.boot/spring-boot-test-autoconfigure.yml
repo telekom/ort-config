@@ -1,0 +1,5 @@
+- id: "Maven:org.springframework.boot:spring-boot-test-autoconfigure:2.+"
+  curations:
+    comment: "Package resides in its own directory within repo."
+    vcs:
+      path: "spring-boot-project/spring-boot-test-autoconfigure"

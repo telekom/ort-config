@@ -1,0 +1,17 @@
+---
+id: "Maven:org.apache.commons:commons-text:1.10.0"
+vcs:
+  type: "Git"
+  url: "https://gitbox.apache.org/repos/asf/commons-text"
+  revision: "9397c1cdce7e78ffb3f53267d47c857d54c45d1c"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "CODE_OF_CONDUCT.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "CONTRIBUTING.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "SECURITY.md"
+  reason: "DOCUMENTATION_OF"
+- pattern: "src/test/**"
+  reason: "TEST_OF"

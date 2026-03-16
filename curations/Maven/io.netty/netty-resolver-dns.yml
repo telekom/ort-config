@@ -1,0 +1,5 @@
+- id: "Maven:io.netty:netty-resolver-dns:4.+"
+  curations:
+    comment: "Package resides in its own directory within repo."
+    vcs:
+      path: "resolver-dns"

@@ -1,0 +1,11 @@
+---
+id: "Maven:org.springframework.data:spring-data-keyvalue:2.7.18"
+vcs:
+  type: "Git"
+  url: "https://github.com/spring-projects/spring-data-build.git"
+  revision: "54d9472e2c54170b56fc31d8ecf61aaf990623be"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "CONTRIBUTING.adoc"
+  reason: "DOCUMENTATION_OF"

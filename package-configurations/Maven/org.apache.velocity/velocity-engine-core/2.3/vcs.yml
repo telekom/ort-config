@@ -1,0 +1,21 @@
+---
+id: "Maven:org.apache.velocity:velocity-engine-core:2.3"
+vcs:
+  type: "Git"
+  url: "https://gitbox.apache.org/repos/asf/velocity-engine.git"
+  revision: "9cd6c031f9a2b36b6c922b9f86c3034b822e8870"
+path_excludes:
+- pattern: "spring-velocity-support/src/test/**"
+  reason: "TEST_OF"
+- pattern: "velocity-custom-parser-example/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "velocity-engine-core/src/etc/build/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "velocity-engine-core/src/test/**"
+  reason: "TEST_OF"
+- pattern: "velocity-engine-examples/**"
+  reason: "DOCUMENTATION_OF"
+- pattern: "NOTICE"
+  reason: "DOCUMENTATION_OF"
+- pattern: "velocity-engine-scripting/src/test/**"
+  reason: "TEST_OF"

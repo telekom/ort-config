@@ -1,0 +1,17 @@
+---
+id: "Maven:io.netty.incubator:netty-incubator-codec-native-quic:0.0.66.Final"
+vcs:
+  type: "Git"
+  url: "https://github.com/netty/netty-incubator-codec-quic.git"
+  revision: "351aba7d8e2f27f2b3cd124e72fc396f4d8837ca"
+path_excludes:
+- pattern: ".github/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: ".mvn/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "codec-native-quic/src/main/native-package/m4/**"
+  reason: "BUILD_TOOL_OF"
+- pattern: "codec-native-quic/src/test/**"
+  reason: "TEST_OF"
+- pattern: "testsuite-native-image/**"
+  reason: "TEST_OF"
